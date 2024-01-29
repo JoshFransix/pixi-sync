@@ -1,0 +1,19 @@
+.bg-img {
+  background: url('../assets/images/bg-img.png') no-repeat center center/cover;
+}
+
+a:not(.active) {
+  color: #fff;
+}
+
+a.active {
+  color: #1749fe;
+  font-weight: bold;
+}
+
+.MuiTextField-root,
+.css-r47a1p-MuiFormControl-root {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 400px;
+}

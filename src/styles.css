@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Josefin+Sans&display=swap');
+
+body {
+  background: #141a2a;
+  font-family: 'Work Sans', sans-serif;
+}
+
+a {
+  transition: all 0.3s ease-in-out;
+}
+
+.josefin {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.black-ops {
+  font-family: 'Black Ops One', sans-serif;
+}
