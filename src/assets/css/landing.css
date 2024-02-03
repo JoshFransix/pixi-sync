@@ -1,0 +1,63 @@
+.bg-img {
+  background: url('../images/bg-img.png') no-repeat center center/cover;
+}
+
+.navbar a:not(.active) {
+  color: #fff;
+}
+
+.navbar a.active {
+  color: #1749fe;
+  font-weight: bold;
+}
+
+.MuiTextField-root,
+.css-r47a1p-MuiFormControl-root {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 400px;
+}
+.MuiAccordion-gutters {
+  background: #ddd;
+}
+
+.card,
+.overlay {
+  transition: 0.3s;
+  /* color: rgb(3, 229, 183); */
+}
+
+.card .overlay {
+  background: linear-gradient(rgba(3, 122, 222, 0.8), rgba(3, 229, 183, 0.4));
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card h1,
+.card a {
+  transition: 0.3s;
+  transform: translateY(-20px);
+}
+
+.card:hover h1,
+.card:hover a {
+  transform: translateY(0px);
+}
+.features-card:hover .text-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  transition: 0.3s;
+}
+.text-section {
+  transition: 0.3s;
+}
+
+.footer a {
+  color: rgb(226, 232, 240);
+  font-size: 14px;
+}
+.footer a:hover {
+  text-decoration: line-through;
+}

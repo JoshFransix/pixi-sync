@@ -1,11 +1,10 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Button from '@mui/material/Button';
-import '../../css/landing.css';
+import '../../assets/css/landing.css';
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between text-white items-center h-[10vh] w-10/12 mx-auto bg-transparent">
+    <div className="navbar flex justify-between text-white items-center h-[10vh] w-10/12 mx-auto bg-transparent">
       <h2 className="josefin text-xl font-semibold">
         <span className="text-primary">P</span>ixi
         <span className="text-primary">S</span>ync

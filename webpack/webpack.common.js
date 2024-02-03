@@ -1,3 +1,4 @@
+const Dotenv = require('dotenv-webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
@@ -48,6 +49,7 @@ module.exports = {
     historyApiFallback: true,
   },
   plugins: [
+    new Dotenv(),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '..', './src/index.html'),
     }),

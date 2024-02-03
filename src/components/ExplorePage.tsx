@@ -1,4 +1,4 @@
-import '../css/landing.css';
+import '../assets/css/landing.css';
 // import Button from '@mui/material/Button';
 import LoadingButton from '@mui/lab/LoadingButton';
 import NavBar from './Nav/NavBar';
